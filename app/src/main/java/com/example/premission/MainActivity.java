@@ -28,38 +28,10 @@ public class MainActivity extends AppCompatActivity {
         sms.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("sms"+PhoneNumber.getText().toString().trim())));
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("sms"+PhoneNumber.getText().toString())));
             }
         });
 
-        BT = findViewById(R.id.Bluetooth);
-        WF = findViewById(R.id.Wifi);
-       final BluetoothAdapter b = BluetoothAdapter .getDefaultAdapter();
-
-
-        if (b.isEnabled()){
-            BT.setChecked(true);
-
-        }else {
-            BT.setChecked(false);
-
-        }
-        BT.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                if (BT.getText().equals("BLUETOOTH ON")) {
-
-                    b.enable();
-                    Toast.makeText(getApplication(), "بلوتوث روشن شد", Toast.LENGTH_LONG).show();
-
-                } else {
-                    b.disable();
-                    Toast.makeText(getApplication(), "  بلوتوث خاموش شد", Toast.LENGTH_LONG).show();
-
-                }
-            }
-        } );
 
 
 
