@@ -18,7 +18,8 @@
         android:background="@color/TXTcolor"
         android:hint="شماره تلفن"
         android:textSize="25sp"
-        android:id="@+id/PhoneNumber"/>
+        android:id="@+id/PhoneNumber"
+        android:inputType="phone"/>
 
 
     <Button
