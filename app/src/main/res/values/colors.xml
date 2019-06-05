@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="TXTcolor">#FDFDFD</color>
+
+    <color name="Bluetooth">#0B4BE6</color>
+    <color name="Wifi">#0DE017</color>
+    <color name="Email">#D353E7</color>
+
+
+    <color name="textHint">#FFFFFF</color>
+    <color name="green">#A5B12C</color>
+    <color name="red">#FF5722</color>
+    <color name="yellow">#FFEB3B</color>
+
+</resources>
